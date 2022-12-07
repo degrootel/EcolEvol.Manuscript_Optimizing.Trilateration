@@ -98,7 +98,6 @@ test.info <- read.csv("parcstopover/TestInfo.csv", header = T)[,-1]
 str(test.info) # check that data imported properly
 
 beep.dat <- readRDS("outpath/beep_data_2022-10-15_2022-10-18.rds")
-
 str(beep.dat) # check that data imported properly
 
 nodes <- read.csv("parcstopover/Nodes.csv", header = T)[,-1]
